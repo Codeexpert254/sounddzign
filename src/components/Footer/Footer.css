@@ -1,0 +1,69 @@
+#footer {
+  background-color: var(--primary-color);
+}
+
+#footer .logo {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--white-color);
+  padding-left: 128px;
+}
+
+#footer .logo span {
+  color: var(--darkred-color);
+}
+
+#footer .socials {
+  display: flex;
+  padding-left: 128px;
+  margin: 38px 0;
+  gap: 16px;
+}
+
+#footer .copyright {
+  font-family: Alegreya;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--white-color);
+  padding-left: 128px;
+}
+
+#footer .name {
+  font-family: Alegreya;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--darkred-color);
+  margin-bottom: 9px;
+}
+
+#footer .link {
+  font-family: Alegreya;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--white-color);
+  margin-bottom: 5px;
+}
+
+#footer .quick-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer .images {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer .footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 128px;
+}
